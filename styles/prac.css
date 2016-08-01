@@ -1,0 +1,30 @@
+.myPanel{
+  border: 1px solid #55695D;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #ccc;
+  margin: 3%;
+}
+
+.myPanel .heading{
+  background: #B0F5CD;
+  border-radius: 5px 5px 0 0;
+  color: #55695D;
+  padding: 10px 20px;
+}
+
+.myPanel .body{
+  padding: 10px 20px;
+}
+
+.myPanel .showOnHover{
+  display: none;
+}
+
+.myPanel:hover{
+  border: 2px solid #55695D;
+  box-shadow: 0 0 8px #666;
+}
+
+.myPanel:hover .showOnHover{
+  display: inline-block;
+}
